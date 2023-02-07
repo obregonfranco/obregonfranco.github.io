@@ -1,3 +1,55 @@
-body{
-    background-color: green
+#laterali{
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(0, 158, 53)) ;
+    background-size: auto;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    min-height: 100vh; 
+    font-family: 'Raleway', sans-serif;
+}
+#laterali a{
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
+#laterali li{
+    list-style: none;
+}
+#inicio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#laterali div{
+    margin-bottom: 70px;
+}
+#laterali div a{
+    margin: 5%;
+}
+#laterali nav ul li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#laterald{
+    background-color: rgb(73, 73, 73);
+    color: rgb(224, 224, 224);
+}
+#laterald h1{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 70px;
+    -webkit-text-stroke: 2px rgb(143, 255, 143);
+    color: transparent;
+
+}
+#laterald p{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 35px;
+    
+}
+#texto{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    
 }
