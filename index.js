@@ -13,3 +13,19 @@ document.getElementById('experiencia').onclick = function() {
 document.getElementById('habilidades').onclick = function() {
     document.getElementById("texto").innerHTML = "Marketing Digital <br>  <br> Diseño Gráfico <br>  <br> Conocimientos de Hardware"
 }
+
+
+$(document).ready(function(){
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
+		} else {
+			$('.ir-arriba').slideUp(300);
+		}
+	});
+});
