@@ -55,14 +55,14 @@
 }
 
 
-.ir-arriba{
-    display:none;
-    background-repeat:no-repeat;
-    font-size:20px;
-    color:rgb(84, 163, 69);
-    cursor:pointer;
-    position:fixed;
-    bottom:10px;
-    right:10px;
-    z-index:2;
-  }
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:rgb(84, 163, 69);
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:10px;
+	right:10px;
+}
