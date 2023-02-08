@@ -57,9 +57,9 @@
 
 .ir-arriba {
 	display:none;
-	padding:20px;
+	padding:10px;
 	background:rgb(84, 163, 69);
-	font-size:10px;
+	font-size:5px;
 	cursor:pointer;
 	position: fixed;
 	bottom:10px;
